@@ -16,7 +16,7 @@ public class HelloController {
         return "Hola Mundo desde SpringBoot!";
     }
 
-    @GetMapping("/bootstrap")
+    @GetMapping("/")
     public String bootstrap(){
         return """
                 <!doctype html>
